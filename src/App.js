@@ -1,3 +1,9 @@
+import {useEffect, useState } from 'react'
+import Gallery from './components/Gallery'
+import SearchBar from './components/SearchBar'
+// import { DataContext } from './context/DataContext'
+
+
 
 const App = () => {
   let [search, setSearch] = useState('')
